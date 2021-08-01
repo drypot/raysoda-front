@@ -1,14 +1,14 @@
 # RaySoda Front
 
-RaySoda front repo.
+RaySoda front.
 
-## Backend repo
+## Backend
 
 <https://github.com/drypot/raysoda>
 
 ## History
 
-2021.08.01 Backend 리포지터리에서 분리.
+2021.08.01 Backend에서 분리.
 
 ## License
 
