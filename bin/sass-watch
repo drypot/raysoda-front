@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-sass --watch public/static/css
+rm -fr public/build/css
+npx sass --watch src/css/scss:public/build/css

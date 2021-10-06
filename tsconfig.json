@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "ESNext",
+
+    "moduleResolution": "node",
+
+    //"lib": ["esnext", "dom"],
+
+    "esModuleInterop": true,
+
+    "strict": true,
+    "sourceMap": true,
+
+    "useDefineForClassFields": true,
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "isolatedModules": true, // Vite 에서는 이 옵션이 true 여야한다.
+
+    // js 파일이 출력될 디렉토리.
+    "outDir": "public/build/js",
+
+    // 소스 파일의 루트를 어디로 볼 것인가를 결정한다.
+    // outDir 디렉토리에 사용할 서브 패스에 영향을 준다.
+    // rootDir 이 "src"일 경우 src/a.ts -> dist/a.js 가 된다.
+    // rootDir 이 "."일 경우 src/a.ts -> dist/src/a.js 가 된다.
+    "rootDir": "src/ts"
+  },
+  "include": [
+    "src/ts/**/*.ts",
+    "src/ts/**/*.d.ts",
+  ]
+}

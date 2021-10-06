@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+  .mt-ultra {
+    @apply mt-20
+  }
+
+  .mt-big {
+    @apply mt-16
+  }
+
+  .mt-large {
+    @apply mt-10
+  }
+
+  .mt-normal {
+    @apply mt-8
+  }
+
+  .mt-small {
+    @apply mt-4
+  }
+
+  .mt-image-thumb {
+    @apply mt-[7rem] sm_mt-[8rem] md_mt-[9rem] lg_mt-[10rem] xl_mt-[11rem]
+  }
+
+}
+
+html {
+  @apply text-base lg_text-lg xl_text-xl 2xl_text-2xl
+}
+
+body {
+  @apply font-serif text-gray-800
+}
+
+.column {
+  @apply max-w-prose mx-auto text-center
+}
+
+h1 {
+  @apply mt-ultra text-4xl
+}
+
+h2 {
+  @apply mt-big text-2xl
+}
+
+h3 {
+  @apply mt-normal text-xl
+}
+
+p {
+  @apply mt-normal leading-8
+}
+
+a {
+  @apply text-blue-500 hover_underline
+}
+
+.link {
+  @apply text-blue-500 hover_underline
+}
+
+.link-no-deco a, a.link-no-deco  {
+  @apply text-gray-800 hover_no-underline
+}
+
+.btn {
+  @apply bg-gray-400 text-white font-bold py-1 px-4 rounded
+}
+
+.btn-hover-green {
+  @apply hover_bg-green-400
+}
+
+.btn-hover-red {
+  @apply hover_bg-red-400
+}

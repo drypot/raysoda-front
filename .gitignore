@@ -8,5 +8,7 @@
 package-lock.json
 
 /dist/
+/build/
+/public/build/
 
 /tmp/

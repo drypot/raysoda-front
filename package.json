@@ -1,0 +1,26 @@
+{
+  "name": "raysoda-front",
+  "version": "3.0.0",
+  "description": "RaySoda front jQuery version.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drypot/raysoda-front.git"
+  },
+  "author": "Kyuhyun Park <drypot@gmail.com> (https://drypot.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drypot/raysoda-front/issues"
+  },
+  "homepage": "https://github.com/drypot/raysoda-front#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.9",
+    "sass": "^1.42.1",
+    "tailwindcss": "^2.2.16",
+    "typescript": "^4.4.3"
+  }
+}
