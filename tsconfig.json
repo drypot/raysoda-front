@@ -18,7 +18,8 @@
     "isolatedModules": true, // Vite 에서는 이 옵션이 true 여야한다.
 
     // js 파일이 출력될 디렉토리.
-    "outDir": "public/build/js",
+    // public/build 에는 rollup 이 출력한다.
+    "outDir": "build",
 
     // 소스 파일의 루트를 어디로 볼 것인가를 결정한다.
     // outDir 디렉토리에 사용할 서브 패스에 영향을 준다.
