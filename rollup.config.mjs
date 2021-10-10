@@ -6,7 +6,8 @@ export default defineConfig({
   input: 'src/ts/main.ts',
   output: {
     file: 'public/build/bundle.js',
-    format: 'iife'
+    format: 'iife',
+    name: 'app',
   },
   watch: {
     include: [
