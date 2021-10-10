@@ -3,11 +3,11 @@
 //   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 // })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 //
-// var ga_tid =
-//   appNamel == 'raysoda' ? 'UA-86165221-2' :
-//     appNamel == 'rapixel' ? 'UA-86165221-3' :
-//       appNamel == 'osoky' ? 'UA-86165221-4' :
-//         appNamel == 'drypot' ? 'UA-86165221-5' :
+// let ga_tid =
+//   appNamel === 'raysoda' ? 'UA-86165221-2' :
+//     appNamel === 'rapixel' ? 'UA-86165221-3' :
+//       appNamel === 'osoky' ? 'UA-86165221-4' :
+//         appNamel === 'drypot' ? 'UA-86165221-5' :
 //           null;
 //
 // if (ga_tid) {
