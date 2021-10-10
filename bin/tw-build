@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-npx tailwindcss -i src/css/tailwind/base.css -o public/build/css/base.css
+npx tailwindcss -i src/css/tailwind/base.css -o public/build/bundle.css
