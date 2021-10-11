@@ -1,4 +1,4 @@
-//import resolve from '@rollup/plugin-node-resolve';
+//import nodeResolve from '@rollup/plugin-node-resolve';
 import typescript from '@rollup/plugin-typescript'
 import { defineConfig } from 'rollup'
 
@@ -16,9 +16,9 @@ export default defineConfig({
   },
   plugins: [
     typescript({
-      //include: "src/ts/**/*.ts",
-      cacheDir: 'tmp/rollup-tscache',
+      tsconfig: "src/client/tsconfig.json",
+      "sourceMap": true,
     }),
-    //resolve(),
+    //nodeResolve(),
   ]
 })
