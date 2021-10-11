@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-rm -fr public/build/css
-npx sass --watch src/css/scss:public/build/css
