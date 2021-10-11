@@ -8,6 +8,9 @@ RaySoda front jQuery version.
 
 ## Memo
 
+2021-10-11\
+서버 리포에 다시 합쳤다.
+
 2021-10-06\
 Vue, React 실험을 중지하고 예전 코드 정리 시작.\
 Pug 에 Tailwind 를 적용하는 것은 여러가지로 매끄럽지가 않다.\
